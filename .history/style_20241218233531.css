@@ -42,7 +42,6 @@ body {
 a {
     text-decoration: none;
     color: #000;
-    cursor: pointer;
 }
 
 .header__upper {
@@ -93,6 +92,5 @@ a {
 }
 
 .header__lower-navbar {
-    display: flex;
-    gap: 48px;
+    
 }

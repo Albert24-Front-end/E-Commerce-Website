@@ -42,13 +42,11 @@ body {
 a {
     text-decoration: none;
     color: #000;
-    cursor: pointer;
 }
 
 .header__upper {
     background-color: #000;
     padding: 12px 0;
-    margin-bottom: 40px;
 }
 
 .container-header__upper {
@@ -78,11 +76,6 @@ a {
     border: none;
 }
 
-.container-header__lower {
-    display: flex;
-    justify-content: space-between;
-}
-
 .header__lower-logo a {
     font-family: var(--second-family);
     font-weight: 700;
@@ -90,9 +83,4 @@ a {
     line-height: 100%;
     letter-spacing: 0.03em;
     color: var(--text2);
-}
-
-.header__lower-navbar {
-    display: flex;
-    gap: 48px;
 }
