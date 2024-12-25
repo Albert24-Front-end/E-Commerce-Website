@@ -949,13 +949,8 @@ ul li {
 
 .up-scroller {
     border: none;
-    background-color: var(--secondary);
-    width: 46px;
-    height: 46px;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: transparent;
+    
     position: fixed;
     bottom: 32px;
     right: 89px;
