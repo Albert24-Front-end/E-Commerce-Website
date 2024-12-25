@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Grid</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    .large-item {
+      grid-row: span 2;
+      background-image: url('https://via.placeholder.com/600x600');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      padding: 20px;
+    }
+
+    .small-item {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      padding: 20px;
+    }
+
+    .small-item:nth-child(2) {
+      background-image: url('https://via.placeholder.com/300x300');
+    }
+
+    .small-item:nth-child(3) {
+      background-image: url('https://via.placeholder.com/300x300');
+    }
+
+    .small-item:nth-child(4) {
+      background-image: url('https://via.placeholder.com/300x300');
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #007BFF;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="large-item">
+      <div class="overlay">
+        <h2>PlayStation 5</h2>
+        <p>Black and White version of the PS5 coming out on sale.</p>
+        <a href="#">Shop Now</a>
+      </div>
+    </div>
+    <div class="small-item">
+      <h2>Women’s Collections</h2>
+      <p>Featured woman collections that give you another vibe.</p>
+      <a href="#">Shop Now</a>
+    </div>
+    <div class="small-item">
+      <h2>Speakers</h2>
+      <p>Amazon wireless speakers</p>
+      <a href="#">Shop Now</a>
+    </div>
+    <div class="small-item">
+      <h2>Perfume</h2>
+      <p>GUCCI INTENSE OUD EDP</p>
+      <a href="#">Shop Now</a>
+    </div>
+  </div>
+</body>
+</html>
