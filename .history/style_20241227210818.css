@@ -1250,7 +1250,6 @@ ul li {
 .log-in__buttons {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .log-in__button-auth {
@@ -1261,17 +1260,12 @@ ul li {
     justify-content: center;
     border-radius: 4px;
     padding: 16px;
-    min-width: 143px;
     min-height: 56px;
     font-weight: 500;
     font-size: 16px;
     color: var(--text);
 }
 
-.log-in__buttons a {
-    font-size: 16px;
-    color: var(--secondary-2);
-}
 
 
 
