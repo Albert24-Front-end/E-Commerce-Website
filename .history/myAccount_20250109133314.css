@@ -1,0 +1,131 @@
+.upper-panel {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.upper-panel__breadcrumbs {
+    display: flex;
+    gap: 12px;
+    color: var(--text2);
+}
+
+.upper-panel__breadcrumbs-first {
+    opacity: 0.5;
+}
+
+.upper-panel__welcome {
+    color: var(--text2);
+}
+
+.upper-panel__breadcrumbs-guest {
+    color: var(--secondary-2);
+}
+
+.account-profile {
+    display: flex;
+    gap: 100px;
+}
+
+
+
+.profile-edition {
+    padding: 40px 0 0 80px;
+}
+
+.profile-edition h4 {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--secondary-2);
+}
+
+.profile-data {
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-template-areas: "FirstName LastName"
+                                      "Email Address";
+    row-gap: 24px;
+    column-gap: 50px;
+    margin-bottom: 24px;
+    width: 710px;
+}
+
+.profile-data__first-name {
+    grid-area: FirstName;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profile-data__last-name {
+    grid-area: LastName;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profile-data__email {
+    grid-area: Email;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profile-data__address {
+    grid-area: Address;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profile-password {
+    margin-bottom: 24px;
+}
+
+.profile-password h5 {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text2);
+    margin-bottom: 8px;
+}
+
+.profile-password__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+}
+.profile-button-cancel {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+}
+.profile-button-save {
+    border-radius: 4px;
+    border: none;
+    padding: 16px 48px;
+    background: var(--secondary-2);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text);
+    text-align: center;
+}
+
+.profile-edition input {
+    height: 50px;
+    padding: 13px 0 13px 16px;
+    border-radius: 4px;
+    border: none;
+    background: var(--secondary);
+    font-size: 16px;
+}
+
+.profile-edition input:f

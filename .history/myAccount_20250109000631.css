@@ -1,0 +1,23 @@
+.upper-panel {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.upper-panel__breadcrumbs {
+    display: flex;
+    gap: 12px;
+    color: var(--text2);
+}
+
+.upper-panel__breadcrumbs-first {
+    opacity: 0.5;
+}
+
+.upper-panel__welcome {
+    color: var(--text2);
+}
+
+.upper-panel__breadcrumbs-guest {
+    color: var(--secondary-2);
+}

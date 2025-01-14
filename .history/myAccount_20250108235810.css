@@ -1,0 +1,19 @@
+.upper-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-panel__breadcrumbs {
+    display: flex;
+    gap: 12px;
+    color: var(--text2);
+}
+
+.upper-panel__breadcrumbs-first {
+    color: var(--text2);
+    opacity: 0.5;
+}
+
+.upper-panel__breadcrumbs-second {
+
+}

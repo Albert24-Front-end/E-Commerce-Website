@@ -1,0 +1,9 @@
+.upper-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-panel__breadcrumbs {
+    display: flex;
+    gap: 12px;
+}
